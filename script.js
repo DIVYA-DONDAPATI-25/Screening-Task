@@ -6,7 +6,7 @@ var buttonReset = document.getElementById('btn-reset');
 var Interval;
 buttonStart.addEventListener('click',()=>{
     clearInterval(Interval);
-    Interval = setInterval(startTime,1000)
+    Interval = setInterval(startTime,100)
 })
 buttonStop.addEventListener('click',()=>{
     clearInterval(Interval);
